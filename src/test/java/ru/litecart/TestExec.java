@@ -6,6 +6,8 @@ import cucumber.api.junit.Cucumber;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
+import static org.junit.jupiter.api.Assertions.assertAll;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/resources/features/searchFieldTest.feature"},
@@ -23,6 +25,7 @@ public class TestExec {
         Configuration.browser = "chrome";
         Configuration.fastSetValue = true;
     }
+
 }
 
 
