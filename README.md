@@ -27,7 +27,7 @@
 
   1.allure.properties - файл с настройками allure
   
-  2.log4j.properties - файл с настройками библиотеку логирования log4j
+  2.log4j.xml - файл с настройками библиотеку логирования log4j
   
   
 * scr/test/java
